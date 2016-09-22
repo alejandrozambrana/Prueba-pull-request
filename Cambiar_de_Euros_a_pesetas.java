@@ -11,7 +11,9 @@ public class Cambiar_de_Euros_a_pesetas {
     
     String linea;
 
-    System.out.print("Por favor, Introduce la cantidad de euros a convertir: ");
+    System.out.println("Este programa es un conversor de euros a pesetas.")
+
+    System.out.print("Por favor, introduce la cantidad de euros a convertir: ");
     linea = System.console().readLine();
     
     int euros;
@@ -20,7 +22,7 @@ public class Cambiar_de_Euros_a_pesetas {
     int pesetas; 
     pesetas = (int)(euros * 166.386);
       
-      System.out.println("La cantidad de euros introducida " + euros);
+      System.out.println("La cantidad de euros introducida es: " + euros);
       System.out.print("El resultado de la conversion es: ");
       System.out.print(pesetas);
 
