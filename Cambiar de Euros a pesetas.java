@@ -6,7 +6,7 @@
  * @author Alejandro Zambrana Naranjo
  */
 
-public class Ejercicio2 {
+public class Cambiar de Euros a pesetas {
   public static void main(String[] args) {
     
     String linea;
